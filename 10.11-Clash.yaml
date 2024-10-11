@@ -7,110 +7,177 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇬🇧 英国, server: 51.38.65.155, port: 443, type: trojan, password: 1d7692c0-f51c-11ee-91eb-1239d0255272, skip-cert-verify: true}
   - {name: 🇬🇧 英国 2, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇭🇰 香港, server: ru0195.alibabaokz.com, port: 60194, type: trojan, password: 38571ca6-6692-4559-b901-0bc5826b7661, sni: ru0195.alibabaokz.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 5f2502d8-20bb-47c6-8f52-7bc616a013d3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 2, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 82c94e58-b1ed-4bd2-820c-751dd73ffad5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 3, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: b896cf3d-a776-4938-81e1-95baf556eb0f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 4, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 12750c44-b27a-472b-a98f-9ebf64063271, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 5, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: fd7046a8-1861-45ce-9a83-2f136a6826f1, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 6, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: d806e9bc-5597-498d-bdf9-7a98d00c4861, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 7, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 2ee50f5c-fe97-4b15-9630-564b2d2efab3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 8, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 26df9aff-7ec4-4dcc-8f8b-7d338470e8de, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 9, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 10, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 2887783d-8802-46ae-a974-e63cb74c9646, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 11, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 66bfa738-7982-45c6-876b-5444275e13b7, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 12, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 84eba614-79df-40e9-8e91-627ecc049c55, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 13, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 14, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 15, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 16, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 209d147c-f6ef-4bda-b831-dd226d7d1a27, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 17, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 18, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港, server: pj.shakalaka.xyz, port: 11789, type: ss, cipher: aes-128-gcm, password: a3c29dd3-d366-4fc2-9efa-ec0c81519b75}
   - {name: 🇭🇰 香港 2, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa}
-  - {name: 🇭🇰 香港 3, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 4, server: 103.248.229.28, port: 28556, type: vmess, uuid: be585991-528f-4e48-9e77-1a59c09ce4c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 5, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: faef339c-094b-462a-8986-8103511e568d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 6, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 07a3da6c-6f4a-4e6c-a54a-45df32ed8603, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 7, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: e153e51e-6772-44ed-92e5-437ba5a3866d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 8, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 0053f9c5-ac08-4ff5-a3b7-36dc0e212183, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 9, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 3bbd3ce6-7145-43ba-aaf7-2c160a790eaa, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 10, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 3b86f5c9-3f58-431e-b890-5918a1a45fac, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 11, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 43cc1097-13df-4b58-bb6e-0cd9b5ad63f2, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 12, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 421137bd-857d-4ff7-a4e6-5b62091a0082, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 13, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: a17c886c-3cc5-4676-9e9d-4e6065a9a4d9, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 14, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 9bd0fd19-0127-44ed-a203-9c7fdb63d13c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 15, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 3bbd3ce6-7145-43ba-aaf7-2c160a790eaa, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 16, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 9bd0fd19-0127-44ed-a203-9c7fdb63d13c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 17, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 3b86f5c9-3f58-431e-b890-5918a1a45fac, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 18, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 43cc1097-13df-4b58-bb6e-0cd9b5ad63f2, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 19, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 421137bd-857d-4ff7-a4e6-5b62091a0082, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 20, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: a17c886c-3cc5-4676-9e9d-4e6065a9a4d9, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 21, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: faef339c-094b-462a-8986-8103511e568d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 22, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 07a3da6c-6f4a-4e6c-a54a-45df32ed8603, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 23, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: e153e51e-6772-44ed-92e5-437ba5a3866d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 24, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 0053f9c5-ac08-4ff5-a3b7-36dc0e212183, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 25, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: faef339c-094b-462a-8986-8103511e568d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 26, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 07a3da6c-6f4a-4e6c-a54a-45df32ed8603, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 27, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: e153e51e-6772-44ed-92e5-437ba5a3866d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 28, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 0053f9c5-ac08-4ff5-a3b7-36dc0e212183, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 29, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 3bbd3ce6-7145-43ba-aaf7-2c160a790eaa, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 30, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 3b86f5c9-3f58-431e-b890-5918a1a45fac, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 31, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 43cc1097-13df-4b58-bb6e-0cd9b5ad63f2, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 32, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 421137bd-857d-4ff7-a4e6-5b62091a0082, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 33, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 9bd0fd19-0127-44ed-a203-9c7fdb63d13c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 34, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 07a3da6c-6f4a-4e6c-a54a-45df32ed8603, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 35, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: e153e51e-6772-44ed-92e5-437ba5a3866d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 36, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 0053f9c5-ac08-4ff5-a3b7-36dc0e212183, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 37, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 3bbd3ce6-7145-43ba-aaf7-2c160a790eaa, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 38, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 9bd0fd19-0127-44ed-a203-9c7fdb63d13c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 39, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 3b86f5c9-3f58-431e-b890-5918a1a45fac, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 40, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 43cc1097-13df-4b58-bb6e-0cd9b5ad63f2, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 41, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 421137bd-857d-4ff7-a4e6-5b62091a0082, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 42, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: a17c886c-3cc5-4676-9e9d-4e6065a9a4d9, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 43, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: faef339c-094b-462a-8986-8103511e568d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 44, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
-  - {name: 🇯🇵 日本, server: 18.183.36.223, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 3, server: ambxxic01hk.dorabbb.top, port: 44803, type: vmess, uuid: b03ec976-3100-48ea-b1b1-767f8d425907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 4, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 5, server: 103.248.229.28, port: 28556, type: vmess, uuid: be585991-528f-4e48-9e77-1a59c09ce4c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 6, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
+  - {name: 🇭🇰 香港 7, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 5f2502d8-20bb-47c6-8f52-7bc616a013d3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 8, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 82c94e58-b1ed-4bd2-820c-751dd73ffad5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 9, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: b896cf3d-a776-4938-81e1-95baf556eb0f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 10, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 12750c44-b27a-472b-a98f-9ebf64063271, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 11, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: fd7046a8-1861-45ce-9a83-2f136a6826f1, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 12, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: d806e9bc-5597-498d-bdf9-7a98d00c4861, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 13, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 2ee50f5c-fe97-4b15-9630-564b2d2efab3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 14, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 26df9aff-7ec4-4dcc-8f8b-7d338470e8de, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 15, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 16, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 2887783d-8802-46ae-a974-e63cb74c9646, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 17, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 66bfa738-7982-45c6-876b-5444275e13b7, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 18, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 84eba614-79df-40e9-8e91-627ecc049c55, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 19, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 20, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 21, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 22, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 209d147c-f6ef-4bda-b831-dd226d7d1a27, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 23, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 24, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 5f2502d8-20bb-47c6-8f52-7bc616a013d3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 2, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 82c94e58-b1ed-4bd2-820c-751dd73ffad5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 3, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: b896cf3d-a776-4938-81e1-95baf556eb0f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 4, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 12750c44-b27a-472b-a98f-9ebf64063271, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 5, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: fd7046a8-1861-45ce-9a83-2f136a6826f1, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 6, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: d806e9bc-5597-498d-bdf9-7a98d00c4861, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 7, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 2ee50f5c-fe97-4b15-9630-564b2d2efab3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 8, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 26df9aff-7ec4-4dcc-8f8b-7d338470e8de, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 9, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 10, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 2887783d-8802-46ae-a974-e63cb74c9646, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 11, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 66bfa738-7982-45c6-876b-5444275e13b7, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 12, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 13, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 14, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 15, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 209d147c-f6ef-4bda-b831-dd226d7d1a27, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 16, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 17, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇪 瑞典, server: 217.142.142.190, port: 443, type: trojan, password: 1dfba761-c1e0-422e-98b6-062da56afb53, skip-cert-verify: true}
+  - {name: 🇸🇪 瑞典 2, server: 13.53.74.71, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇯🇵 日本, server: jp.gensh.top, port: 17544, type: vmess, uuid: 5db5337e-99ba-4662-86f4-07b926239136, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ccwinfcjccjjdccccckc, headers: {Host: ys.mihoyo.com}}}
+  - {name: 🇯🇵 日本 2, server: 18.183.36.223, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 3, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 5f2502d8-20bb-47c6-8f52-7bc616a013d3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 4, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 82c94e58-b1ed-4bd2-820c-751dd73ffad5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 5, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: b896cf3d-a776-4938-81e1-95baf556eb0f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 6, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 12750c44-b27a-472b-a98f-9ebf64063271, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 7, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: fd7046a8-1861-45ce-9a83-2f136a6826f1, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 8, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: d806e9bc-5597-498d-bdf9-7a98d00c4861, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 9, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 2ee50f5c-fe97-4b15-9630-564b2d2efab3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 10, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 26df9aff-7ec4-4dcc-8f8b-7d338470e8de, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 11, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 12, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 2887783d-8802-46ae-a974-e63cb74c9646, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 13, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 66bfa738-7982-45c6-876b-5444275e13b7, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 14, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 84eba614-79df-40e9-8e91-627ecc049c55, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 15, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 16, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 17, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 18, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 209d147c-f6ef-4bda-b831-dd226d7d1a27, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 19, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 20, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国, server: www.visa.com, port: 443, type: trojan, password: 1b3b276f-44b4-4c39-bfdf-67ff6337b41f, sni: www.visa.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 2, server: waphk.mjt000.com, port: 443, type: trojan, password: d0774966-fb63-4aca-9478-16c3f32be220, sni: waphk.mjt000.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 3, server: sg.mjt000.com, port: 443, type: trojan, password: d0774966-fb63-4aca-9478-16c3f32be220, sni: sg.mjt000.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 4, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
-  - {name: 🇺🇸 美国 5, server: hms082.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: gwdef.sbs}}}
-  - {name: 🇺🇸 美国 6, server: 50.116.1.158, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /LtteaUsf, headers: {Host: 50.116.1.158}}}
-  - {name: 🇺🇸 美国 7, server: 38.75.137.42, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 8, server: 38.75.137.42, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 9, server: 38.75.137.42, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 10, server: 38.75.137.42, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 11, server: 38.75.137.42, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 12, server: 38.75.137.42, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 13, server: 38.75.137.42, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 14, server: 38.75.137.42, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 15, server: 38.75.137.42, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 16, server: 38.75.137.42, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 17, server: 38.75.137.42, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 18, server: 38.75.137.42, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 19, server: 38.75.137.42, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 20, server: 35.94.175.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 21, server: 23.150.152.41, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 22, server: 23.150.152.41, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 23, server: 23.150.152.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 24, server: 23.150.152.41, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: 🇺🇸 美国 25, server: 192.53.114.167, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BqVwBioP, headers: {Host: 192.53.114.167}}}
-  - {name: 🇺🇸 美国 26, server: 192.53.114.166, port: 443, type: vmess, uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QusAEjFA, headers: {Host: 192.53.114.166}}}
-  - {name: 🇺🇸 美国 27, server: 172.67.244.191, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: gwdef.sbs}}}
-  - {name: 🇺🇸 美国 28, server: 142.202.49.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 29, server: 142.202.49.84, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 30, server: 142.202.49.84, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 31, server: 142.202.49.84, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 32, server: 142.202.49.84, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 33, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 34, server: 142.202.49.122, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 35, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 36, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 37, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 38, server: 142.202.49.122, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 39, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 40, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大, server: 68.168.31.196, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 68.168.31.196}}}
-  - {name: 🇨🇦 加拿大 2, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 法国, server: 51.77.20.132, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: a.baradiha.com}}}
-  - {name: 🇩🇪 德国, server: 195.74.86.176, port: 17828, type: ss, cipher: chacha20-ietf-poly1305, password: OHT1oO1d2IsZM01XZMxiM2}
-  - {name: 🇩🇪 德国 2, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
-  - {name: 🇩🇪 德国 3, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 🇩🇪 德国 4, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 5, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 🇩🇪 德国 6, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇩🇪 德国 7, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 8, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 9, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 10, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 11, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 12, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 13, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 14, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 15, server: 103.252.90.93, port: 443, type: trojan, password: 7d2c1050-fc3a-11ee-9230-1239d0255272, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 2, server: 69.50.95.218, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 3, server: 69.50.95.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 4, server: 69.50.95.218, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 5, server: 69.50.95.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 6, server: 69.50.95.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 7, server: 69.50.95.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 8, server: 69.50.95.218, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 9, server: 69.50.95.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 10, server: 69.50.95.218, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 11, server: 69.50.95.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 12, server: 69.50.95.218, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国 13, server: 69.50.95.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国 14, server: 52.12.74.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 15, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 16, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 17, server: 38.114.114.69, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 18, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国 19, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 20, server: 38.114.114.69, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 21, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 22, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 23, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 24, server: 38.110.1.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 25, server: 38.110.1.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 26, server: 38.110.1.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 27, server: 38.110.1.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 28, server: 38.110.1.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 29, server: 38.110.1.12, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国 30, server: 38.110.1.105, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 31, server: 38.110.1.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 32, server: 38.110.1.105, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 33, server: 38.110.1.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 34, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 35, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国 36, server: 38.110.1.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 37, server: 38.110.1.105, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 38, server: 38.110.1.105, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 39, server: 38.110.1.105, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 40, server: 38.110.1.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 41, server: 38.110.1.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 42, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 43, server: 3.78.121.94, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 44, server: 3.36.69.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 45, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
+  - {name: 🇺🇸 美国 46, server: 173.230.153.192, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /JyKvcGEV, headers: {Host: 173.230.153.192}}}
+  - {name: 🇺🇸 美国 47, server: 172.234.94.163, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fkPaQhPT, headers: {Host: 172.234.94.163}}}
+  - {name: 🇺🇸 美国 48, server: 169.197.141.84, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 49, server: 169.197.141.84, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国 50, server: 169.197.141.84, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 51, server: 15.204.87.222, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 52, server: 142.202.49.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 53, server: 142.202.49.84, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 54, server: 142.202.49.84, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 55, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 56, server: 139.64.164.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 57, server: 139.64.164.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 58, server: 13.212.100.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 59, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 60, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 61, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 5f2502d8-20bb-47c6-8f52-7bc616a013d3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 62, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 82c94e58-b1ed-4bd2-820c-751dd73ffad5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 63, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: b896cf3d-a776-4938-81e1-95baf556eb0f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 64, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 12750c44-b27a-472b-a98f-9ebf64063271, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 65, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: fd7046a8-1861-45ce-9a83-2f136a6826f1, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 66, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: d806e9bc-5597-498d-bdf9-7a98d00c4861, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 67, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 2ee50f5c-fe97-4b15-9630-564b2d2efab3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 68, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 26df9aff-7ec4-4dcc-8f8b-7d338470e8de, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 69, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 70, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 2887783d-8802-46ae-a974-e63cb74c9646, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 71, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 66bfa738-7982-45c6-876b-5444275e13b7, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 72, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 84eba614-79df-40e9-8e91-627ecc049c55, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 73, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 74, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 75, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 76, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 209d147c-f6ef-4bda-b831-dd226d7d1a27, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 77, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 78, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰, server: 45.158.171.14, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
+  - {name: 🇩🇪 德国, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 🇩🇪 德国 2, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 3, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇩🇪 德国 4, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 5, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇩🇪 德国 6, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 7, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 8, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇩🇪 德国 9, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 10, server: 103.252.90.93, port: 443, type: trojan, password: 7d2c1050-fc3a-11ee-9230-1239d0255272, skip-cert-verify: true}
   - {name: 🇧🇪 比利时, server: 57.129.28.69, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: baradiha.com}}}
   - {name: 阿富汗, server: exchange.gameaurela.click, port: 52952, type: ss, cipher: chacha20-ietf-poly1305, password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj}
   - {name: 阿富汗 2, server: 185.24.151.214, port: 52952, type: ss, cipher: chacha20-ietf-poly1305, password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj}
@@ -122,6 +189,24 @@ proxy-groups:
       - DIRECT
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -146,27 +231,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -207,10 +310,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -221,11 +360,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -237,6 +371,24 @@ proxy-groups:
     proxies:
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -261,27 +413,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -322,10 +492,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -336,11 +542,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -352,6 +553,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -376,27 +595,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -437,10 +674,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -451,11 +724,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -466,6 +734,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -490,27 +776,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -551,10 +855,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -565,11 +905,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -580,6 +915,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -604,27 +957,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -665,10 +1036,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -679,11 +1086,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -694,6 +1096,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -718,27 +1138,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -779,10 +1217,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -793,11 +1267,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -809,6 +1278,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -833,27 +1320,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -894,10 +1399,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -908,11 +1449,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
@@ -940,6 +1476,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇬🇧 英国
       - 🇬🇧 英国 2
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡 5
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡 9
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇸🇬 新加坡 13
+      - 🇸🇬 新加坡 14
+      - 🇸🇬 新加坡 15
+      - 🇸🇬 新加坡 16
+      - 🇸🇬 新加坡 17
+      - 🇸🇬 新加坡 18
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -964,27 +1518,45 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
-      - 🇭🇰 香港 25
-      - 🇭🇰 香港 26
-      - 🇭🇰 香港 27
-      - 🇭🇰 香港 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港 31
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港 33
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 35
-      - 🇭🇰 香港 36
-      - 🇭🇰 香港 37
-      - 🇭🇰 香港 38
-      - 🇭🇰 香港 39
-      - 🇭🇰 香港 40
-      - 🇭🇰 香港 41
-      - 🇭🇰 香港 42
-      - 🇭🇰 香港 43
-      - 🇭🇰 香港 44
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
+      - 🇨🇳 台湾 7
+      - 🇨🇳 台湾 8
+      - 🇨🇳 台湾 9
+      - 🇨🇳 台湾 10
+      - 🇨🇳 台湾 11
+      - 🇨🇳 台湾 12
+      - 🇨🇳 台湾 13
+      - 🇨🇳 台湾 14
+      - 🇨🇳 台湾 15
+      - 🇨🇳 台湾 16
+      - 🇨🇳 台湾 17
+      - 🇸🇪 瑞典
+      - 🇸🇪 瑞典 2
       - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 🇯🇵 日本 7
+      - 🇯🇵 日本 8
+      - 🇯🇵 日本 9
+      - 🇯🇵 日本 10
+      - 🇯🇵 日本 11
+      - 🇯🇵 日本 12
+      - 🇯🇵 日本 13
+      - 🇯🇵 日本 14
+      - 🇯🇵 日本 15
+      - 🇯🇵 日本 16
+      - 🇯🇵 日本 17
+      - 🇯🇵 日本 18
+      - 🇯🇵 日本 19
+      - 🇯🇵 日本 20
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -1025,10 +1597,46 @@ proxy-groups:
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
       - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
+      - 🇺🇸 美国 55
+      - 🇺🇸 美国 56
+      - 🇺🇸 美国 57
+      - 🇺🇸 美国 58
+      - 🇺🇸 美国 59
+      - 🇺🇸 美国 60
+      - 🇺🇸 美国 61
+      - 🇺🇸 美国 62
+      - 🇺🇸 美国 63
+      - 🇺🇸 美国 64
+      - 🇺🇸 美国 65
+      - 🇺🇸 美国 66
+      - 🇺🇸 美国 67
+      - 🇺🇸 美国 68
+      - 🇺🇸 美国 69
+      - 🇺🇸 美国 70
+      - 🇺🇸 美国 71
+      - 🇺🇸 美国 72
+      - 🇺🇸 美国 73
+      - 🇺🇸 美国 74
+      - 🇺🇸 美国 75
+      - 🇺🇸 美国 76
+      - 🇺🇸 美国 77
+      - 🇺🇸 美国 78
       - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇰🇷 韩国
-      - 🇫🇷 法国
+      - 🇳🇱 荷兰
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -1039,11 +1647,6 @@ proxy-groups:
       - 🇩🇪 德国 8
       - 🇩🇪 德国 9
       - 🇩🇪 德国 10
-      - 🇩🇪 德国 11
-      - 🇩🇪 德国 12
-      - 🇩🇪 德国 13
-      - 🇩🇪 德国 14
-      - 🇩🇪 德国 15
       - 🇧🇪 比利时
       - 阿富汗
       - 阿富汗 2
