@@ -7,7 +7,7 @@
 
 #### 免费节点、订阅资源分享定期更新
 
-[免费节点使用教程](https://blog.52chatai.com/%e6%b7%bb%e5%8a%a0%e8%8a%82%e7%82%b9%e6%95%99%e7%a8%8b/)
+[点击查看免费节点使用教程](https://blog.52chatai.com/%e6%b7%bb%e5%8a%a0%e8%8a%82%e7%82%b9%e6%95%99%e7%a8%8b/)
 
 [点击加入tg群组防失联](https://t.me/+mTx-gHqaklswNWRl)
 
