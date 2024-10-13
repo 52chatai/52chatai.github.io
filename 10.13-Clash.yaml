@@ -7,126 +7,157 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇬🇧 英国, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇬🇧 英国 2, server: 51.38.65.155, port: 443, type: trojan, password: 1d7692c0-f51c-11ee-91eb-1239d0255272, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡, server: 183.94.30.225, port: 12025, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 2, server: 183.94.30.225, port: 12025, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 3, server: 183.94.30.225, port: 12025, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 4, server: 183.94.30.225, port: 12025, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 5, server: 183.94.30.225, port: 12025, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 6, server: 183.94.30.225, port: 12025, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 7, server: 183.94.30.225, port: 12025, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 8, server: 183.94.30.225, port: 12025, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 9, server: 183.94.30.225, port: 12025, type: trojan, password: 8733bd60-0a0f-4dec-946d-46b172213921, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 10, server: 183.94.30.225, port: 12025, type: trojan, password: 8997b715-588b-4c76-92ab-e4a3704866f3, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 11, server: 183.94.30.225, port: 12025, type: trojan, password: 0c89af0c-725b-479c-8c5a-a93aa9078b0f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 12, server: 183.94.30.225, port: 12025, type: trojan, password: 3cfb5a20-3eae-49f0-9b4f-de4619d58ee6, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 13, server: 183.94.30.225, port: 12025, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 14, server: 183.94.30.225, port: 12025, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 15, server: 183.94.30.225, port: 12025, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 16, server: 183.94.30.225, port: 12025, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 17, server: 183.94.30.225, port: 12025, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 18, server: 183.94.30.225, port: 12025, type: trojan, password: 92dc35a0-1438-4663-9735-d226ee20d28a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 19, server: 183.94.30.225, port: 12025, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港, server: 14.152.94.40, port: 8191, type: ssr, cipher: dummy, password: !<str> 123456, protocol: auth_chain_a, obfs: plain, protocol-param: 59869:ES8PT7, obfs-param: 59869:ES8PT7}
-  - {name: 🇭🇰 香港 2, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 3, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: naiu-hk.05vr9nyqg5.download, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 4, server: 112.29.210.170, port: 12006, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 5, server: 112.29.210.170, port: 12006, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 6, server: 112.29.210.170, port: 12006, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 7, server: 112.29.210.170, port: 12006, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 8, server: 112.29.210.170, port: 12006, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 9, server: 112.29.210.170, port: 12006, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 10, server: 112.29.210.170, port: 12006, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 11, server: 112.29.210.170, port: 12006, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 12, server: 112.29.210.170, port: 12006, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 13, server: 112.29.210.170, port: 12006, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 14, server: 112.29.210.170, port: 12006, type: trojan, password: 8733bd60-0a0f-4dec-946d-46b172213921, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 15, server: 112.29.210.170, port: 12006, type: trojan, password: 8997b715-588b-4c76-92ab-e4a3704866f3, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 16, server: 112.29.210.170, port: 12006, type: trojan, password: 0c89af0c-725b-479c-8c5a-a93aa9078b0f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 17, server: 112.29.210.170, port: 12006, type: trojan, password: 3cfb5a20-3eae-49f0-9b4f-de4619d58ee6, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 18, server: 112.29.210.170, port: 12006, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 19, server: 112.29.210.170, port: 12006, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 20, server: 112.29.210.170, port: 12006, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 21, server: 112.29.210.170, port: 12006, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 22, server: 112.29.210.170, port: 12006, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 23, server: 112.29.210.170, port: 12006, type: trojan, password: 92dc35a0-1438-4663-9735-d226ee20d28a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 24, server: 112.29.210.170, port: 12006, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾, server: 112.29.210.170, port: 12011, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 2, server: 112.29.210.170, port: 12011, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 3, server: 112.29.210.170, port: 12011, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 4, server: 112.29.210.170, port: 12011, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 5, server: 112.29.210.170, port: 12011, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 6, server: 112.29.210.170, port: 12011, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 7, server: 112.29.210.170, port: 12011, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 8, server: 112.29.210.170, port: 12011, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 9, server: 112.29.210.170, port: 12011, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 10, server: 112.29.210.170, port: 12011, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 11, server: 112.29.210.170, port: 12011, type: trojan, password: 8733bd60-0a0f-4dec-946d-46b172213921, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 12, server: 112.29.210.170, port: 12011, type: trojan, password: 0c89af0c-725b-479c-8c5a-a93aa9078b0f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 13, server: 112.29.210.170, port: 12011, type: trojan, password: 3cfb5a20-3eae-49f0-9b4f-de4619d58ee6, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 14, server: 112.29.210.170, port: 12011, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 15, server: 112.29.210.170, port: 12011, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 16, server: 112.29.210.170, port: 12011, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 17, server: 112.29.210.170, port: 12011, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 18, server: 112.29.210.170, port: 12011, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 19, server: 112.29.210.170, port: 12011, type: trojan, password: 92dc35a0-1438-4663-9735-d226ee20d28a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 20, server: 112.29.210.170, port: 12011, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 2, server: 183.94.30.225, port: 12025, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 3, server: 183.94.30.225, port: 12025, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 4, server: 183.94.30.225, port: 12025, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 5, server: 183.94.30.225, port: 12025, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 6, server: 183.94.30.225, port: 12025, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 7, server: 183.94.30.225, port: 12025, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 8, server: 183.94.30.225, port: 12025, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 9, server: 183.94.30.225, port: 12025, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 10, server: 183.94.30.225, port: 12025, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 11, server: 183.94.30.225, port: 12025, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 12, server: 183.94.30.225, port: 12025, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 13, server: 183.94.30.225, port: 12025, type: trojan, password: 1c113eea-8bdd-42c7-9406-1b4d44dbe244, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 14, server: 183.94.30.225, port: 12025, type: trojan, password: 4b8a7086-8e62-401d-bda0-9e0a686edee0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 15, server: 183.94.30.225, port: 12025, type: trojan, password: 61835714-8f01-484c-8f56-6e16118febf3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 16, server: 183.94.30.225, port: 12025, type: trojan, password: ec1571f6-8b6d-4d12-8f9e-5241e9edc8eb, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 17, server: 183.94.30.225, port: 12025, type: trojan, password: 24fe9c9b-9d48-4138-b211-e712301b078f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 18, server: 183.94.30.225, port: 12025, type: trojan, password: 239084a4-c19e-4e1b-8cf4-0ee7cc14dd32, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 19, server: 183.94.30.225, port: 12025, type: trojan, password: ce78b827-4a78-4bdf-a9a8-a05a99610ba0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 20, server: 183.94.30.225, port: 12025, type: trojan, password: d3fb74ed-b5ae-4178-a406-b87366f59c8f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 21, server: 183.94.30.225, port: 12025, type: trojan, password: df39f56b-a03d-4beb-901f-545404e60e0b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港, server: 1.12.237.86, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5}
+  - {name: 🇭🇰 香港 2, server: 103.248.229.28, port: 28556, type: vmess, uuid: be585991-528f-4e48-9e77-1a59c09ce4c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 3, server: 14.152.94.40, port: 8191, type: ssr, cipher: dummy, password: !<str> 123456, protocol: auth_chain_a, obfs: plain, protocol-param: 59869:ES8PT7, obfs-param: 59869:ES8PT7}
+  - {name: 🇭🇰 香港 4, server: 221.181.185.71, port: 23801, type: ss, cipher: aes-256-cfb, password: JpTYrOJnIhNMXqli}
+  - {name: 🇭🇰 香港 5, server: 221.181.185.71, port: 23382, type: ss, cipher: aes-256-cfb, password: f52SZksXnGNfc72Q}
+  - {name: 🇭🇰 香港 6, server: 221.181.185.71, port: 20934, type: ss, cipher: aes-256-cfb, password: bbO8KazkNBUGb7HP}
+  - {name: 🇭🇰 香港 7, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 8, server: ambxxid02hk.dorabbb.top, port: 44826, type: vmess, uuid: 5f01c154-4137-4ffc-bf6d-801352a20d7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 9, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: f2e800fd-5780-471e-8335-9da18a502ec3}
+  - {name: 🇭🇰 香港 10, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: f2e800fd-5780-471e-8335-9da18a502ec3}
+  - {name: 🇭🇰 香港 11, server: any.hmbiplc-02.com, port: 53451, type: ss, cipher: chacha20-ietf-poly1305, password: f2e800fd-5780-471e-8335-9da18a502ec3}
+  - {name: 🇭🇰 香港 12, server: 112.26.33.73, port: 12006, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 13, server: 112.26.33.73, port: 12006, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 14, server: 112.26.33.73, port: 12006, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 15, server: 112.26.33.73, port: 12006, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 16, server: 112.26.33.73, port: 12006, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 17, server: 112.26.33.73, port: 12006, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 18, server: 112.26.33.73, port: 12006, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 19, server: 112.26.33.73, port: 12006, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 20, server: 112.26.33.73, port: 12006, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 21, server: 112.26.33.73, port: 12006, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 22, server: 112.26.33.73, port: 12006, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 23, server: 112.29.210.170, port: 12006, type: trojan, password: 1c113eea-8bdd-42c7-9406-1b4d44dbe244, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 24, server: 112.29.210.170, port: 12006, type: trojan, password: 4b8a7086-8e62-401d-bda0-9e0a686edee0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 25, server: 112.29.210.170, port: 12006, type: trojan, password: 61835714-8f01-484c-8f56-6e16118febf3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 26, server: 112.29.210.170, port: 12006, type: trojan, password: ec1571f6-8b6d-4d12-8f9e-5241e9edc8eb, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 27, server: 112.29.210.170, port: 12006, type: trojan, password: 24fe9c9b-9d48-4138-b211-e712301b078f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 28, server: 112.29.210.170, port: 12006, type: trojan, password: 239084a4-c19e-4e1b-8cf4-0ee7cc14dd32, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 29, server: 112.29.210.170, port: 12006, type: trojan, password: ce78b827-4a78-4bdf-a9a8-a05a99610ba0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 30, server: 112.29.210.170, port: 12006, type: trojan, password: d3fb74ed-b5ae-4178-a406-b87366f59c8f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 31, server: 112.29.210.170, port: 12006, type: trojan, password: df39f56b-a03d-4beb-901f-545404e60e0b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾, server: 112.26.33.73, port: 12011, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 2, server: 112.26.33.73, port: 12011, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 3, server: 112.26.33.73, port: 12011, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 4, server: 112.26.33.73, port: 12011, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 5, server: 112.26.33.73, port: 12011, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 6, server: 112.26.33.73, port: 12011, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 7, server: 112.26.33.73, port: 12011, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 8, server: 112.26.33.73, port: 12011, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 9, server: 112.26.33.73, port: 12011, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 10, server: 112.26.33.73, port: 12011, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 11, server: 112.26.33.73, port: 12011, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 12, server: 112.29.210.170, port: 12011, type: trojan, password: 1c113eea-8bdd-42c7-9406-1b4d44dbe244, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 13, server: 112.29.210.170, port: 12011, type: trojan, password: 4b8a7086-8e62-401d-bda0-9e0a686edee0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 14, server: 112.29.210.170, port: 12011, type: trojan, password: 61835714-8f01-484c-8f56-6e16118febf3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 15, server: 112.29.210.170, port: 12011, type: trojan, password: ec1571f6-8b6d-4d12-8f9e-5241e9edc8eb, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 16, server: 112.29.210.170, port: 12011, type: trojan, password: 24fe9c9b-9d48-4138-b211-e712301b078f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 17, server: 112.29.210.170, port: 12011, type: trojan, password: 239084a4-c19e-4e1b-8cf4-0ee7cc14dd32, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 18, server: 112.29.210.170, port: 12011, type: trojan, password: ce78b827-4a78-4bdf-a9a8-a05a99610ba0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 19, server: 112.29.210.170, port: 12011, type: trojan, password: d3fb74ed-b5ae-4178-a406-b87366f59c8f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 20, server: 112.29.210.170, port: 12011, type: trojan, password: df39f56b-a03d-4beb-901f-545404e60e0b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇪 瑞典, server: ent1.imyourdaddy.top, port: 20983, type: trojan, password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, sni: ent1.imyourdaddy.top, skip-cert-verify: true}
   - {name: 🇯🇵 日本, server: 18.183.36.223, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 2, server: 183.94.30.225, port: 12035, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 3, server: 183.94.30.225, port: 12035, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 4, server: 183.94.30.225, port: 12035, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 5, server: 183.94.30.225, port: 12035, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 6, server: 183.94.30.225, port: 12035, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 7, server: 183.94.30.225, port: 12035, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 8, server: 183.94.30.225, port: 12035, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 9, server: 183.94.30.225, port: 12035, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 10, server: 183.94.30.225, port: 12035, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 11, server: 183.94.30.225, port: 12035, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 12, server: 183.94.30.225, port: 12035, type: trojan, password: 8733bd60-0a0f-4dec-946d-46b172213921, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 13, server: 183.94.30.225, port: 12035, type: trojan, password: 8997b715-588b-4c76-92ab-e4a3704866f3, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 14, server: 183.94.30.225, port: 12035, type: trojan, password: 0c89af0c-725b-479c-8c5a-a93aa9078b0f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 15, server: 183.94.30.225, port: 12035, type: trojan, password: 3cfb5a20-3eae-49f0-9b4f-de4619d58ee6, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 16, server: 183.94.30.225, port: 12035, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 17, server: 183.94.30.225, port: 12035, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 18, server: 183.94.30.225, port: 12035, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 19, server: 183.94.30.225, port: 12035, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 20, server: 183.94.30.225, port: 12035, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 21, server: 183.94.30.225, port: 12035, type: trojan, password: 92dc35a0-1438-4663-9735-d226ee20d28a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 22, server: 183.94.30.225, port: 12035, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国, server: 3.75.33.55, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 2, server: 23.150.152.41, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 3, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 4, server: 45.33.54.48, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uzbXtnJH, headers: {Host: 45.33.54.48}}}
-  - {name: 🇺🇸 美国 5, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 6, server: 183.94.30.225, port: 12053, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 7, server: 183.94.30.225, port: 12053, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 8, server: 183.94.30.225, port: 12053, type: trojan, password: a877e148-2677-43de-b6e8-3354698eef41, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 9, server: 183.94.30.225, port: 12053, type: trojan, password: ebf2f85b-3624-4ed7-aea4-009474f72a7d, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 10, server: 183.94.30.225, port: 12053, type: trojan, password: 84e118a0-47ee-49ce-ac53-e55674eb4a0a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 11, server: 183.94.30.225, port: 12053, type: trojan, password: 7d7efec5-fb62-493c-b234-f082fae6a79b, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 12, server: 183.94.30.225, port: 12053, type: trojan, password: 36146310-e7fc-443f-864c-4fe46b92c35f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 13, server: 183.94.30.225, port: 12053, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 14, server: 183.94.30.225, port: 12053, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 15, server: 183.94.30.225, port: 12053, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 16, server: 183.94.30.225, port: 12053, type: trojan, password: 8733bd60-0a0f-4dec-946d-46b172213921, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 17, server: 183.94.30.225, port: 12053, type: trojan, password: 0c89af0c-725b-479c-8c5a-a93aa9078b0f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 18, server: 183.94.30.225, port: 12053, type: trojan, password: 3cfb5a20-3eae-49f0-9b4f-de4619d58ee6, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 19, server: 183.94.30.225, port: 12053, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 20, server: 183.94.30.225, port: 12053, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 21, server: 183.94.30.225, port: 12053, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 22, server: 183.94.30.225, port: 12053, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 23, server: 183.94.30.225, port: 12053, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 24, server: 183.94.30.225, port: 12053, type: trojan, password: 92dc35a0-1438-4663-9735-d226ee20d28a, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 25, server: 183.94.30.225, port: 12053, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 2, server: 54.178.150.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 3, server: 54.238.98.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本 4, server: 183.94.30.225, port: 12035, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 5, server: 183.94.30.225, port: 12035, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 6, server: 183.94.30.225, port: 12035, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 7, server: 183.94.30.225, port: 12035, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 8, server: 183.94.30.225, port: 12035, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 9, server: 183.94.30.225, port: 12035, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 10, server: 183.94.30.225, port: 12035, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 11, server: 183.94.30.225, port: 12035, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 12, server: 183.94.30.225, port: 12035, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 13, server: 183.94.30.225, port: 12035, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 14, server: 183.94.30.225, port: 12035, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 15, server: 183.94.30.225, port: 12035, type: trojan, password: 1c113eea-8bdd-42c7-9406-1b4d44dbe244, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 16, server: 183.94.30.225, port: 12035, type: trojan, password: 4b8a7086-8e62-401d-bda0-9e0a686edee0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 17, server: 183.94.30.225, port: 12035, type: trojan, password: 61835714-8f01-484c-8f56-6e16118febf3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 18, server: 183.94.30.225, port: 12035, type: trojan, password: ec1571f6-8b6d-4d12-8f9e-5241e9edc8eb, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 19, server: 183.94.30.225, port: 12035, type: trojan, password: 24fe9c9b-9d48-4138-b211-e712301b078f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 20, server: 183.94.30.225, port: 12035, type: trojan, password: 239084a4-c19e-4e1b-8cf4-0ee7cc14dd32, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 21, server: 183.94.30.225, port: 12035, type: trojan, password: ce78b827-4a78-4bdf-a9a8-a05a99610ba0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 22, server: 183.94.30.225, port: 12035, type: trojan, password: d3fb74ed-b5ae-4178-a406-b87366f59c8f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 23, server: 183.94.30.225, port: 12035, type: trojan, password: df39f56b-a03d-4beb-901f-545404e60e0b, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 2, server: 15.204.87.225, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 3, server: 15.204.87.225, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 4, server: 15.204.87.225, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 5, server: 15.204.87.225, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 6, server: 15.204.87.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 7, server: 15.204.87.225, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 8, server: 15.204.87.225, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国 9, server: 15.204.87.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 10, server: 15.204.87.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 11, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
+  - {name: 🇺🇸 美国 12, server: 23.166.88.198, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 13, server: 23.166.88.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 14, server: 35.95.35.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 15, server: 52.43.33.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 16, server: 54.244.188.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 17, server: 69.50.92.72, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 18, server: 69.50.92.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 19, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 20, server: 69.50.92.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国 21, server: 69.50.95.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 22, server: 69.50.95.179, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 23, server: 69.50.95.179, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 24, server: 69.50.95.179, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国 25, server: 183.94.30.225, port: 12053, type: trojan, password: f3f63a32-e141-442e-94f1-749b10a4de86, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 26, server: 183.94.30.225, port: 12053, type: trojan, password: f73c7e23-622d-48f0-b5ec-ee99e6ecde67, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 27, server: 183.94.30.225, port: 12053, type: trojan, password: 0dfd70a0-9af9-4b88-9193-da0596c5a282, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 28, server: 183.94.30.225, port: 12053, type: trojan, password: fb7a154a-8123-4001-882a-d9ca5b29d13e, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 29, server: 183.94.30.225, port: 12053, type: trojan, password: 99ba9d6f-c425-4b86-afe3-c306918cce1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 30, server: 183.94.30.225, port: 12053, type: trojan, password: e9f94acb-f331-4ebd-843d-259c080fa0c5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 31, server: 183.94.30.225, port: 12053, type: trojan, password: bc3d4d44-9420-43a0-8cb3-22e4a20014ee, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 32, server: 183.94.30.225, port: 12053, type: trojan, password: 35dc8712-f381-42ae-999c-c61942dc602a, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 33, server: 183.94.30.225, port: 12053, type: trojan, password: 544f323b-c6ab-457a-8ae3-01fad62b5563, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 34, server: 183.94.30.225, port: 12053, type: trojan, password: fbac345d-487e-44e3-b825-47bcddcf3f9f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 35, server: 183.94.30.225, port: 12053, type: trojan, password: 552bd59f-9098-4a5d-b461-4e81a144bcb5, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 36, server: 183.94.30.225, port: 12053, type: trojan, password: 1c113eea-8bdd-42c7-9406-1b4d44dbe244, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 37, server: 183.94.30.225, port: 12053, type: trojan, password: 4b8a7086-8e62-401d-bda0-9e0a686edee0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 38, server: 183.94.30.225, port: 12053, type: trojan, password: 61835714-8f01-484c-8f56-6e16118febf3, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 39, server: 183.94.30.225, port: 12053, type: trojan, password: ec1571f6-8b6d-4d12-8f9e-5241e9edc8eb, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 40, server: 183.94.30.225, port: 12053, type: trojan, password: 24fe9c9b-9d48-4138-b211-e712301b078f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 41, server: 183.94.30.225, port: 12053, type: trojan, password: 239084a4-c19e-4e1b-8cf4-0ee7cc14dd32, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 42, server: 183.94.30.225, port: 12053, type: trojan, password: ce78b827-4a78-4bdf-a9a8-a05a99610ba0, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 43, server: 183.94.30.225, port: 12053, type: trojan, password: d3fb74ed-b5ae-4178-a406-b87366f59c8f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 44, server: 183.94.30.225, port: 12053, type: trojan, password: df39f56b-a03d-4beb-901f-545404e60e0b, sni: cdn.alibaba.com, skip-cert-verify: true}
   - {name: 🇨🇦 加拿大, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰, server: shadowsocks-vpnctvip.ctsubvpn.ggff.net, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
-  - {name: 🇳🇱 荷兰 2, server: 45.158.171.19, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
-  - {name: 🇷🇺 俄罗斯, server: 176.124.199.255, port: 30252, type: ss, cipher: chacha20-ietf-poly1305, password: Zgg@X0m515}
-  - {name: 🇩🇪 德国, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 2, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
-  - {name: 🇩🇪 德国 3, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 4, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
-  - {name: 🇩🇪 德国 5, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
-  - {name: 🇩🇪 德国 6, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇳🇱 荷兰, server: 45.158.171.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
+  - {name: 🇰🇷 韩国, server: 52.78.205.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国 2, server: shouer1.209966.xyz, port: 21744, type: ss, cipher: aes-256-gcm, password: 1ijeblXtJy}
+  - {name: 🇫🇷 法国, server: 45.76.47.77, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true}
+  - {name: 🇩🇪 德国, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 2, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇩🇪 德国 3, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439}
+  - {name: 🇩🇪 德国 4, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9AJsrBPgW4Nhjoy3xCioC}
+  - {name: 🇦🇺 澳大利亚, server: 43.203.254.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇦🇺 澳大利亚 2, server: 43.207.191.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -154,6 +185,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -178,6 +211,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -198,6 +238,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -220,6 +261,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -245,16 +287,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -282,6 +344,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -306,6 +370,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -326,6 +397,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -348,6 +420,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -373,16 +446,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -410,6 +503,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -434,6 +529,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -454,6 +556,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -476,6 +579,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -501,16 +605,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -537,6 +661,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -561,6 +687,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -581,6 +714,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -603,6 +737,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -628,16 +763,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -664,6 +819,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -688,6 +845,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -708,6 +872,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -730,6 +895,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -755,16 +921,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -791,6 +977,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -815,6 +1003,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -835,6 +1030,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -857,6 +1053,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -882,16 +1079,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -919,6 +1136,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -943,6 +1162,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -963,6 +1189,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -985,6 +1212,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -1010,16 +1238,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1063,6 +1311,8 @@ proxy-groups:
       - 🇸🇬 新加坡 17
       - 🇸🇬 新加坡 18
       - 🇸🇬 新加坡 19
+      - 🇸🇬 新加坡 20
+      - 🇸🇬 新加坡 21
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -1087,6 +1337,13 @@ proxy-groups:
       - 🇭🇰 香港 22
       - 🇭🇰 香港 23
       - 🇭🇰 香港 24
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港 26
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 28
+      - 🇭🇰 香港 29
+      - 🇭🇰 香港 30
+      - 🇭🇰 香港 31
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
@@ -1107,6 +1364,7 @@ proxy-groups:
       - 🇨🇳 台湾 18
       - 🇨🇳 台湾 19
       - 🇨🇳 台湾 20
+      - 🇸🇪 瑞典
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
@@ -1129,6 +1387,7 @@ proxy-groups:
       - 🇯🇵 日本 20
       - 🇯🇵 日本 21
       - 🇯🇵 日本 22
+      - 🇯🇵 日本 23
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -1154,16 +1413,36 @@ proxy-groups:
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国 2
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
       - 🇩🇪 德国 4
-      - 🇩🇪 德国 5
-      - 🇩🇪 德国 6
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
