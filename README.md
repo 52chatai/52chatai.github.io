@@ -14,6 +14,21 @@
 #### 镜像直连
 #### 工具推荐
 
+| 平台    | 软件                                                         | 支持协议                                                     |
+| :------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Windows | [V2rayN](https://github.com/2dust/v2rayN/releases)           | SS、Trojan、Vmess、VLESS                                     |
+| Windows | [Clash CFW  **(推荐)**](https://github.com/Fndroid/clash_for_windows_pkg/releases) 已G自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
+| macOS   | [ClashX](https://github.com/yichengchen/clashX/releases) 已G自行搜索安装包 | SS、SSR、Trojan、V2ray                                       |
+| macOS   | [V2rayU](https://github.com/yanue/V2rayU/releases)           | SS、SSR、Trojan、V2ray                                       |
+| Android | [V2rayNG](https://github.com/2dust/v2rayNG/releases)         | SS、Trojan、V2ray（Vmess、VLESS）、Xray                      |
+| Android | [ClashForAndroid  **(推荐)**](https://github.com/Kr328/ClashForAndroid/releases) 已G自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
+| Android | [NekoBoxForAndroid **(推荐)**](https://github.com/MatsuriDayo/NekoBoxForAndroid) | VMess / VLESS / SSR / Trojan / Trojan-Go/ NaiveProxy / HTTP(S) / SOCKS5/etc. |
+| IOS     | Shadowrocket 小火箭 IOS非国区购买[自助下单](https://shop.52chatai.com/) | SS、SSR、Trojan、V2ray、VLESS                                |
+| IOS     | Quantumult  IOS非国区购买                                    | SS、SSR、Trojan、V2ray                                       |
+| IOS     | QuantumultX  IOS非国区购买                                   | SS、SSR、Trojan、V2ray                                       |
+
+
+
 如果您有任何需求、问题或建议，欢迎提出。您也可以发送邮件至：[52chatai@gmail.com](mailto://52chatai@gmail.com)
 
 如果本项目对您有所帮助，欢迎 [Star](https://github.com/52chatai/52chatai.github.io)
