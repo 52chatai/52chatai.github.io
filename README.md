@@ -17,15 +17,13 @@
 | 平台    | 软件                                                         | 支持协议                                                     |
 | :------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | Windows | [V2rayN](https://github.com/2dust/v2rayN/releases)           | SS、Trojan、Vmess、VLESS                                     |
-| Windows | [Clash CFW  **(推荐)**](https://github.com/Fndroid/clash_for_windows_pkg/releases) 已G自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
-| macOS   | [ClashX](https://github.com/yichengchen/clashX/releases) 已G自行搜索安装包 | SS、SSR、Trojan、V2ray                                       |
+| Windows | [Clash CFW ](https://github.com/Fndroid/clash_for_windows_pkg/releases) 已G 自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
+| macOS   | [ClashX](https://github.com/yichengchen/clashX/releases) 已G 自行搜索安装包 | SS、SSR、Trojan、V2ray                                       |
 | macOS   | [V2rayU](https://github.com/yanue/V2rayU/releases)           | SS、SSR、Trojan、V2ray                                       |
 | Android | [V2rayNG](https://github.com/2dust/v2rayNG/releases)         | SS、Trojan、V2ray（Vmess、VLESS）、Xray                      |
-| Android | [ClashForAndroid  **(推荐)**](https://github.com/Kr328/ClashForAndroid/releases) 已G自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
-| Android | [NekoBoxForAndroid **(推荐)**](https://github.com/MatsuriDayo/NekoBoxForAndroid) | VMess / VLESS / SSR / Trojan / Trojan-Go/ NaiveProxy / HTTP(S) / SOCKS5/etc. |
+| Android | [ClashForAndroid ](https://github.com/Kr328/ClashForAndroid/releases) 已G 自行搜索安装包 | SS、SSR、Trojan、Vmess、VLESS                                |
+| Android | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | VMess / VLESS / SSR / Trojan / Trojan-Go/ NaiveProxy / HTTP(S) / SOCKS5/etc. |
 | IOS     | Shadowrocket 小火箭 IOS非国区购买[自助下单](https://shop.52chatai.com/) | SS、SSR、Trojan、V2ray、VLESS                                |
-| IOS     | Quantumult  IOS非国区购买                                    | SS、SSR、Trojan、V2ray                                       |
-| IOS     | QuantumultX  IOS非国区购买                                   | SS、SSR、Trojan、V2ray                                       |
 
 
 
