@@ -14,18 +14,19 @@
 #### 镜像直连
 #### 工具推荐
 
-| 平台    | 软件                                                         | 支持协议                                                     |
-| :------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Windows | [V2rayN](https://github.com/2dust/v2rayN/releases/latest)    | SS、Trojan、Vmess、VLESS                                     |
-| Windows | [Clash Verge Rev ](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、Vmess、VLESS                                |
-| macOS   | [V2rayU](https://github.com/yanue/V2rayU/releases)           | SS、SSR、Trojan、V2ray                                       |
-| macOS   | [Clash Verge Rev ](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、Vmess、VLESS                                |
-| Linux   | [ClashX](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、V2ray                                       |
-| Android | [V2rayNG](https://github.com/2dust/v2rayNG/releases)         | SS、Trojan、V2ray（Vmess、VLESS）、Xray                      |
-| Android | [sing-box for Android ](https://sing-box.sagernet.org/zh/clients/android/) | SS、SSR、Trojan、Hysteria2                                   |
-| Android | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest) | VMess / VLESS / SSR / Trojan / Trojan-Go/ NaiveProxy / HTTP(S) / SOCKS5/etc. |
-| Android | [Clash Meta for Android ](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest) | SS、SSR、Trojan、V2ray                                       |
-| IOS     | Shadowrocket 小火箭 需购买[自助下单](https://shop.52chatai.com/) | SS、SSR、Trojan、V2ray、VLESS                                |
+| 平台                | 软件                                                         | 支持协议                                                     |
+| :------------------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Windows             | [V2rayN](https://github.com/2dust/v2rayN/releases/latest)    | SS、Trojan、Vmess、VLESS                                     |
+| Windows             | [Clash Verge Rev ](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、Vmess、VLESS                                |
+| macOS               | [V2rayU](https://github.com/yanue/V2rayU/releases)           | SS、SSR、Trojan、V2ray                                       |
+| macOS               | [Clash Verge Rev ](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、Vmess、VLESS                                |
+| macOS（M1系列芯片） | Shadowrocket 小火箭 需购买[自助下单](https://shop.52chatai.com/) | SS、SSR、Trojan、V2ray、VLESS                                |
+| Linux               | [ClashX](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) | SS、SSR、Trojan、V2ray                                       |
+| Android             | [V2rayNG](https://github.com/2dust/v2rayNG/releases)         | SS、Trojan、V2ray（Vmess、VLESS）、Xray                      |
+| Android             | [sing-box for Android ](https://sing-box.sagernet.org/zh/clients/android/) | SS、SSR、Trojan、Hysteria2                                   |
+| Android             | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest) | VMess / VLESS / SSR / Trojan / Trojan-Go/ NaiveProxy / HTTP(S) / SOCKS5/etc. |
+| Android             | [Clash Meta for Android ](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest) | SS、SSR、Trojan、V2ray                                       |
+| IOS/iPadOS          | Shadowrocket 小火箭 需购买[自助下单](https://shop.52chatai.com/) | SS、SSR、Trojan、V2ray、VLESS                                |
 
 
 
