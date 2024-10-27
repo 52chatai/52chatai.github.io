@@ -5,121 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇬🇧 英国, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇸🇬 新加坡, server: 13.229.98.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡 2, server: 54.255.245.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港, server: 42.236.73.72, port: 443, type: trojan, password: fuck, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 2, server: 221.181.185.71, port: 20705, type: ss, cipher: aes-256-cfb, password: 75ly0yJ90LP5Ural}
-  - {name: 🇭🇰 香港 3, server: 36.134.115.217, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5}
-  - {name: 🇭🇰 香港 4, server: 36.50.134.29, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 5, server: 12372.96110.one, port: 23872, type: trojan, password: ee49f969-8201-4b9e-8db3-40f660588264, sni: 12372.96110.one, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 6, server: naiu-us.05vr9nyqg5.download, port: 13021, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: naiu-us.05vr9nyqg5.download, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 7, server: zf.1010520.shop, port: 13020, type: ss, cipher: aes-128-gcm, password: 1ce3431c-4e12-432e-a336-ca20c47c2084}
-  - {name: 🇭🇰 香港 8, server: hzhz2.sssyun.xyz, port: 40016, type: ss, cipher: chacha20-ietf-poly1305, password: 9ddd5a1c-2d57-4c68-9f3d-b39ea2b8b698}
-  - {name: 🇭🇰 香港 9, server: z3.fragranceninja.com, port: 12970, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 10, server: z2.fragranceninja.com, port: 12938, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: z2.fragranceninja.com}}}
-  - {name: 🇪🇸 西班牙, server: 150.241.95.62, port: 36792, type: ss, cipher: chacha20-ietf-poly1305, password: F%&MysMUY8}
-  - {name: 🇺🇦 乌克兰, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇭🇰 香港 2, server: 36.134.115.217, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5}
+  - {name: 🇭🇰 香港 3, server: b.baodesign.top, port: 25006, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 4, server: 194.41.59.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇭🇰 香港 5, server: z6.fragranceninja.com, port: 12928, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 6, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
+  - {name: 🇭🇰 香港 7, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: naiu-hk.05vr9nyqg5.download, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 8, server: naiu-jp.05vr9nyqg5.download, port: 13011, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: naiu-jp.05vr9nyqg5.download, skip-cert-verify: true}
   - {name: 🇯🇵 日本, server: 18.183.36.223, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, skip-cert-verify: true}
   - {name: 🇯🇵 日本 2, server: 54.238.135.78, port: 443, type: trojan, password: ca5333cc-60bb-37a6-9084-1fd38120063f, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本 3, server: 54.238.135.78, port: 443, type: trojan, password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 4, server: ent1.imyourdaddy.top, port: 20982, type: trojan, password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, sni: ent1.imyourdaddy.top, skip-cert-verify: true}
   - {name: 🇺🇸 美国, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, skip-cert-verify: true}
   - {name: 🇺🇸 美国 2, server: 35.75.8.137, port: 443, type: trojan, password: e08d3984-9e2f-3d02-9223-1ec0bb0c9a8a, skip-cert-verify: true}
   - {name: 🇺🇸 美国 3, server: 74.226.136.204, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true}
   - {name: 🇺🇸 美国 4, server: 35.75.8.137, port: 443, type: trojan, password: ca5333cc-60bb-37a6-9084-1fd38120063f, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true}
   - {name: 🇺🇸 美国 5, server: 169.197.141.84, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 6, server: 169.197.141.84, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 7, server: 35.75.8.137, port: 443, type: trojan, password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 8, server: 103.136.185.27, port: 5528, type: trojan, password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 9, server: 103.136.185.28, port: 3511, type: trojan, password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 10, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 11, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 12, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 13, server: 38.75.137.42, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 14, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 15, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 16, server: 38.75.137.42, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 17, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 18, server: 38.75.137.42, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 19, server: 38.75.137.42, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 20, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 21, server: 38.75.137.42, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 22, server: 38.75.137.42, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 23, server: 23.166.88.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 24, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 25, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国 26, server: 38.75.136.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国 27, server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 28, server: 23.150.152.53, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 29, server: 38.75.137.42, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 30, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 31, server: 38.75.136.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 32, server: 38.75.136.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 33, server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 34, server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 35, server: 38.75.137.42, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 36, server: 38.75.136.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 37, server: 169.197.141.84, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 38, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 39, server: 38.75.136.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 40, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 41, server: 38.75.136.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 42, server: 38.75.137.42, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 43, server: 38.75.137.42, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 44, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 45, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 46, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 47, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 48, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 49, server: 38.86.135.211, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 50, server: 34.147.231.33, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 51, server: 38.75.136.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 52, server: 144.202.112.106, port: 3913, type: ss, cipher: chacha20-ietf-poly1305, password: 76dze09gQEvqS_jOuo}
-  - {name: 🇺🇸 美国 53, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 美国 54, server: 52.43.127.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 55, server: giving-marmoset.opossum872.cfd, port: 443, type: trojan, password: !<str> 3690911436885991424, sni: giving-marmoset.opossum872.cfd, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 56, server: 167.88.61.111, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 57, server: 38.114.114.46, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 58, server: 38.114.114.46, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 59, server: 38.114.114.46, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 60, server: 38.114.114.46, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: 🇺🇸 美国 61, server: 38.114.114.46, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 62, server: 38.114.114.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 63, server: 38.114.114.46, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 64, server: 38.114.114.46, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 65, server: 38.114.114.46, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 66, server: 34.226.4.207, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 67, server: 169.197.141.84, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 68, server: 38.114.114.46, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 69, server: 38.114.114.46, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国 70, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
-  - {name: 🇺🇸 美国 71, server: 186.190.215.32, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 186.190.215.32}}}
-  - {name: 🇺🇸 美国 72, server: 38.99.82.203, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 38.99.82.203}}}
-  - {name: 🇺🇸 美国 73, server: 23.157.88.33, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 23.157.88.33}}}
-  - {name: 🇺🇸 美国 74, server: 38.114.114.46, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 75, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 76, server: 38.75.137.42, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 77, server: 38.75.137.42, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 78, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 79, server: 38.114.114.46, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 80, server: 38.114.114.46, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 81, server: 38.114.114.46, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 82, server: 38.75.137.42, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 83, server: 151.101.2.133, port: 80, type: vmess, uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: gerMAnyISvP.iR}}}
-  - {name: 🇺🇸 美国 84, server: 151.101.130.133, port: 80, type: vmess, uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: gerMAnyISvP.iR}}}
-  - {name: 🇺🇸 美国 85, server: plex.com, port: 80, type: vmess, uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: gerMAnyISvP.iR}}}
-  - {name: 🇺🇸 美国 86, server: 151.101.66.133, port: 80, type: vmess, uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: gerMAnyISvP.iR}}}
-  - {name: 🇺🇸 美国 87, server: 38.114.114.46, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 88, server: 38.114.114.46, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 89, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 6, server: 35.75.8.137, port: 443, type: trojan, password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 7, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 8, server: 23.166.88.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 9, server: 34.147.231.33, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 10, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国 11, server: giving-marmoset.opossum872.cfd, port: 443, type: trojan, password: !<str> 3690911436885991424, sni: giving-marmoset.opossum872.cfd, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 12, server: 167.88.61.111, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 13, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
+  - {name: 🇺🇸 美国 14, server: 186.190.215.32, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 186.190.215.32}}}
+  - {name: 🇺🇸 美国 15, server: 23.157.88.33, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 23.157.88.33}}}
+  - {name: 🇺🇸 美国 16, server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 17, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 18, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 19, server: 38.110.1.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 20, server: 38.110.1.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 21, server: 23.162.152.177, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 23.162.152.177}}}
+  - {name: 🇺🇸 美国 22, server: 23.157.88.6, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 23.157.88.6}}}
+  - {name: 🇺🇸 美国 23, server: 23.162.200.141, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 23.162.200.141}}}
+  - {name: 🇺🇸 美国 24, server: 23.157.88.6, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.157.88.6}}}
+  - {name: 🇺🇸 美国 25, server: 38.75.136.33, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 26, server: 38.75.136.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 27, server: 38.75.136.33, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 28, server: 38.75.136.33, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 29, server: 38.75.136.33, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 30, server: 38.75.136.33, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 31, server: 38.75.136.33, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国 32, server: 38.75.136.33, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 33, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 34, server: 38.75.136.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 35, server: 38.75.136.33, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 36, server: 38.75.136.33, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 37, server: 38.75.136.33, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 38, server: 38.75.136.33, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 39, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇺🇸 美国 40, server: 195.238.126.84, port: 9039, type: ss, cipher: aes-256-cfb, password: qYEN5HX4JKeVCdEC}
+  - {name: 🇺🇸 美国 41, server: 38.110.1.203, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 42, server: 38.110.1.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 43, server: wanted-pipefish.opossum872.cfd, port: 443, type: trojan, password: !<str> 3648425794742788096, sni: wanted-pipefish.opossum872.cfd, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 44, server: 38.110.1.203, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 45, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国 46, server: 38.110.1.203, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 47, server: 38.110.1.203, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇨🇦 加拿大, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
   - {name: 🇳🇱 荷兰, server: 5.255.118.176, port: 443, type: trojan, password: auto, skip-cert-verify: true}
-  - {name: 🇩🇪 德国, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 🇩🇪 德国 2, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇳🇱 荷兰 2, server: careful-platypus.opossum872.cfd, port: 443, type: trojan, password: !<str> 3690911436885991424, sni: careful-platypus.opossum872.cfd, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国, server: 221.139.79.57, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇫🇷 法国, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
+  - {name: 🇩🇪 德国, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇩🇪 德国 2, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -128,14 +90,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -183,50 +140,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: ♻️ 自动选择
@@ -235,6 +153,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -243,14 +164,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -298,50 +214,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: 🌍 国外媒体
@@ -350,6 +227,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -358,14 +238,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -413,50 +288,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: 📲 电报信息
@@ -464,6 +300,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -472,14 +311,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -527,50 +361,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: Ⓜ️ 微软服务
@@ -578,6 +373,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -586,14 +384,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -641,50 +434,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: 🍎 苹果服务
@@ -692,6 +446,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -700,14 +457,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -755,50 +507,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: 📢 谷歌FCM
@@ -807,6 +520,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -815,14 +531,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -870,50 +581,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
   - name: 🎯 全球直连
@@ -938,6 +610,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇬🇧 英国
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 2
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -946,14 +621,9 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇪🇸 西班牙
-      - 🇺🇦 乌克兰
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -1001,50 +671,11 @@ proxy-groups:
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
       - 🇺🇸 美国 47
-      - 🇺🇸 美国 48
-      - 🇺🇸 美国 49
-      - 🇺🇸 美国 50
-      - 🇺🇸 美国 51
-      - 🇺🇸 美国 52
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国 54
-      - 🇺🇸 美国 55
-      - 🇺🇸 美国 56
-      - 🇺🇸 美国 57
-      - 🇺🇸 美国 58
-      - 🇺🇸 美国 59
-      - 🇺🇸 美国 60
-      - 🇺🇸 美国 61
-      - 🇺🇸 美国 62
-      - 🇺🇸 美国 63
-      - 🇺🇸 美国 64
-      - 🇺🇸 美国 65
-      - 🇺🇸 美国 66
-      - 🇺🇸 美国 67
-      - 🇺🇸 美国 68
-      - 🇺🇸 美国 69
-      - 🇺🇸 美国 70
-      - 🇺🇸 美国 71
-      - 🇺🇸 美国 72
-      - 🇺🇸 美国 73
-      - 🇺🇸 美国 74
-      - 🇺🇸 美国 75
-      - 🇺🇸 美国 76
-      - 🇺🇸 美国 77
-      - 🇺🇸 美国 78
-      - 🇺🇸 美国 79
-      - 🇺🇸 美国 80
-      - 🇺🇸 美国 81
-      - 🇺🇸 美国 82
-      - 🇺🇸 美国 83
-      - 🇺🇸 美国 84
-      - 🇺🇸 美国 85
-      - 🇺🇸 美国 86
-      - 🇺🇸 美国 87
-      - 🇺🇸 美国 88
-      - 🇺🇸 美国 89
       - 🇨🇦 加拿大
       - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇰🇷 韩国
+      - 🇫🇷 法国
       - 🇩🇪 德国
       - 🇩🇪 德国 2
 rules:
