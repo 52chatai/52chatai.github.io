@@ -5,62 +5,143 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡, server: sg2-full.privateip.net, port: 443, type: trojan, password: c3d6d2e4-05a5-4a48-b91a-070b5e9fcdfb, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 2, server: sg-full.privateip.net, port: 443, type: trojan, password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088, skip-cert-verify: true}
-  - {name: 🇭🇰 香港, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 2, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 3, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 4, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 5, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 6, server: 42.236.73.72, port: 443, type: trojan, password: fuck, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 7, server: 36.134.115.217, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5}
-  - {name: 🇭🇰 香港 8, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 62506, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 9, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: 🇭🇰 香港 10, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: 🇭🇰 香港 11, server: k-r01.loveroise.com, port: 54008, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: 🇭🇰 香港 12, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇯🇵 日本, server: 18.179.44.127, port: 443, type: trojan, password: 24273330-85c9-3a6e-a0fd-58a6076a3a85, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 2, server: 18.179.44.127, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 3, server: 52.195.205.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 2, server: de2-full.privateip.net, port: 443, type: trojan, password: 665c944d-047d-4659-80d5-3eaac70241a9, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 3, server: 159.112.235.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 美国 4, server: 54.185.18.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 5, server: au-full.privateip.net, port: 443, type: trojan, password: 882f187b-feb1-4be7-8678-32460f1ecfe6, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 6, server: 13.213.67.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 7, server: 54.200.220.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 8, server: 34.208.196.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 9, server: 170.114.45.94, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 美国 10, server: 199.181.197.184, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 美国 11, server: 168.100.6.46, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇱🇺 卢森堡, server: 188.42.88.198, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰, server: 5.255.118.176, port: 443, type: trojan, password: auto, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰 2, server: 213.109.205.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇳🇱 荷兰 3, server: 185.193.31.108, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇳🇱 荷兰 4, server: 45.159.217.235, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇨🇷 哥斯达黎加, server: 190.93.247.23, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇨🇷 哥斯达黎加 2, server: 190.93.246.178, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇨🇷 哥斯达黎加 3, server: 190.93.247.127, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇨🇷 哥斯达黎加 4, server: 190.93.247.170, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇫🇷 法国, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: 🇫🇷 法国 2, server: 146.19.21.61, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇷🇺 俄罗斯, server: 94.247.142.209, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇷🇺 俄罗斯 2, server: 77.246.97.187, port: 7749, type: ss, cipher: chacha20-ietf-poly1305, password: 7kJQs2RYHhViTYWaf1RobB}
-  - {name: 🇩🇪 德国, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇩🇪 德国 2, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 🇩🇪 德国 3, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 🇵🇱 波兰, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111}
-  - {name: 🇦🇺 澳大利亚, server: 43.206.140.241, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚 2, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: std1.loadingip.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国, server: 185.162.229.179, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇬🇧 英国 2, server: 188.244.122.175, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇬🇧 英国 3, server: 45.8.211.242, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇬🇧 英国 4, server: 185.162.228.1, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇬🇧 英国 5, server: 45.12.30.237, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇸🇬 新加坡, server: 54.169.5.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇸🇬 新加坡 2, server: sg2-full.privateip.net, port: 443, type: trojan, password: c3d6d2e4-05a5-4a48-b91a-070b5e9fcdfb, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 新加坡 3, server: sg-full.privateip.net, port: 443, type: trojan, password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 42.236.73.72, port: 443, type: trojan, password: fuck, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 2, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 3, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 4, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 5, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 6, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 7, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84, tfo: false}
+  - {name: 🇭🇰 香港 8, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84, tfo: false}
+  - {name: 🇪🇸 西班牙, server: 185.238.228.210, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇦 乌克兰, server: lsjd.yunxiang8.mom, port: 38792, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 2, server: lsjd.yunxiang8.mom, port: 39895, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 3, server: lsjd.yunxiang8.mom, port: 39781, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 4, server: lsjd.yunxiang8.mom, port: 43683, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 5, server: lsjd.yunxiang8.mom, port: 43684, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 6, server: lsjd.yunxiang8.mom, port: 43681, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 7, server: lsjd.yunxiang8.mom, port: 48491, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 8, server: lsjd.yunxiang8.mom, port: 48492, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51, tfo: false}
+  - {name: 🇺🇦 乌克兰 9, server: 31.43.179.32, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇯🇵 日本, server: 160.19.78.75, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, tfo: false}
+  - {name: 🇯🇵 日本 2, server: 18.179.44.127, port: 443, type: trojan, password: 24273330-85c9-3a6e-a0fd-58a6076a3a85, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 日本 3, server: 18.179.44.127, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 日本 4, server: 156.238.19.199, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇯🇵 日本 5, server: 91.193.58.5, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇲🇩 摩尔多瓦, server: 185.170.166.26, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国, server: 34.215.84.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 美国 2, server: 54.185.18.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 美国 3, server: au-full.privateip.net, port: 443, type: trojan, password: 882f187b-feb1-4be7-8678-32460f1ecfe6, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 4, server: de2-full.privateip.net, port: 443, type: trojan, password: 665c944d-047d-4659-80d5-3eaac70241a9, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 5, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 6, server: 104.18.114.108, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 7, server: 104.18.114.146, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 8, server: 104.18.114.156, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 9, server: 104.18.114.159, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 10, server: 104.18.114.195, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 11, server: 104.18.114.200, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 12, server: 104.18.114.21, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 13, server: 104.18.114.210, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 14, server: 104.18.114.225, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 15, server: 104.18.114.234, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 16, server: 104.18.114.237, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 17, server: 104.18.114.238, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 18, server: 104.18.114.239, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 19, server: 104.18.114.240, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 20, server: 104.18.114.30, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 21, server: 104.18.114.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 22, server: 104.18.114.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 23, server: 104.18.114.52, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 24, server: 104.18.114.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 25, server: 104.18.114.87, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 26, server: 104.18.114.93, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 27, server: 104.18.114.96, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 28, server: 104.254.140.141, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 29, server: 104.26.0.107, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 30, server: 104.26.0.14, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 31, server: 104.26.0.150, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 32, server: 104.26.0.90, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 33, server: 104.26.0.96, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 34, server: 108.165.152.71, port: 443, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 35, server: 154.83.2.121, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 36, server: 159.112.235.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 37, server: 159.246.55.202, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 38, server: 162.159.45.194, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 39, server: 162.159.45.231, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 40, server: 162.159.45.77, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 41, server: 167.68.5.24, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 42, server: 168.100.6.46, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 43, server: 170.114.45.94, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 44, server: 170.114.46.219, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 45, server: 190.93.244.1, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 46, server: 190.93.245.103, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 47, server: 190.93.245.174, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 48, server: 190.93.245.76, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 49, server: 190.93.245.80, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 50, server: 199.181.197.184, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 51, server: 190.93.245.168, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 52, server: 190.93.244.228, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 53, server: 154.85.99.206, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇺🇸 美国 54, server: 104.18.114.85, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}, tfo: false}
+  - {name: 🇱🇺 卢森堡, server: 188.42.88.198, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇱🇹 立陶宛, server: 185.148.106.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇱🇹 立陶宛 2, server: 185.148.107.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇱🇹 立陶宛 3, server: 89.116.250.94, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇱🇹 立陶宛 4, server: 185.148.105.154, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇦 加拿大, server: 168.138.73.206, port: 40003, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇨🇦 加拿大 2, server: 205.233.181.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰, server: 5.255.118.176, port: 443, type: trojan, password: auto, skip-cert-verify: true, tfo: false}
+  - {name: 🇳🇱 荷兰 2, server: 185.193.30.187, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 3, server: 185.193.31.108, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 4, server: 213.109.205.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 5, server: 45.131.211.23, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 6, server: 45.131.4.208, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 7, server: 45.159.216.191, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 8, server: 45.159.218.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 9, server: 45.159.219.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇳🇱 荷兰 10, server: 194.152.44.218, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加, server: 190.93.247.127, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加 2, server: 190.93.247.139, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加 3, server: 190.93.247.170, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加 4, server: 190.93.247.23, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加 5, server: 190.93.247.203, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇨🇷 哥斯达黎加 6, server: 190.93.247.221, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇫🇷 法国, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jNb5JwjGoCerqxAXR0dIO4, tfo: false}
+  - {name: 🇫🇷 法国 2, server: 45.80.111.9, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇫🇷 法国 3, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, tfo: false}
+  - {name: 🇫🇷 法国 4, server: 146.19.21.61, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, tfo: false}
+  - {name: 🇷🇺 俄罗斯 2, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, tfo: false}
+  - {name: 🇷🇺 俄罗斯 3, server: 185.221.160.12, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 4, server: 193.9.49.23, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 5, server: 89.169.55.152, port: 33026, type: vmess, uuid: 96627876-63f5-4ca7-9b41-a52fee0ca476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dangerzone, headers: {Host: socks5tobefree.ydns.eu}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 6, server: 94.247.142.209, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇩🇰 丹麦, server: 195.85.59.158, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇧🇬 保加利亚, server: 185.176.26.131, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
+  - {name: 🇦🇺 澳大利亚, server: 43.206.140.241, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true, tfo: false}
+  - {name: 🇦🇺 澳大利亚 2, server: 192.65.217.254, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -69,13 +150,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -87,24 +177,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: ♻️ 自动选择
@@ -113,8 +263,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -123,13 +279,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -141,24 +306,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: 🌍 国外媒体
@@ -167,8 +392,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -177,13 +408,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -195,24 +435,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: 📲 电报信息
@@ -220,8 +520,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -230,13 +536,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -248,24 +563,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: Ⓜ️ 微软服务
@@ -273,8 +648,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -283,13 +664,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -301,24 +691,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: 🍎 苹果服务
@@ -326,8 +776,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -336,13 +792,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -354,24 +819,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: 📢 谷歌FCM
@@ -380,8 +905,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -390,13 +921,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -408,24 +948,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
   - name: 🎯 全球直连
@@ -450,8 +1050,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡 3
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -460,13 +1066,22 @@ proxy-groups:
       - 🇭🇰 香港 6
       - 🇭🇰 香港 7
       - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
-      - 🇭🇰 香港 12
+      - 🇪🇸 西班牙
+      - 🇺🇦 乌克兰
+      - 🇺🇦 乌克兰 2
+      - 🇺🇦 乌克兰 3
+      - 🇺🇦 乌克兰 4
+      - 🇺🇦 乌克兰 5
+      - 🇺🇦 乌克兰 6
+      - 🇺🇦 乌克兰 7
+      - 🇺🇦 乌克兰 8
+      - 🇺🇦 乌克兰 9
       - 🇯🇵 日本
       - 🇯🇵 日本 2
       - 🇯🇵 日本 3
+      - 🇯🇵 日本 4
+      - 🇯🇵 日本 5
+      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -478,24 +1093,84 @@ proxy-groups:
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
+      - 🇺🇸 美国 32
+      - 🇺🇸 美国 33
+      - 🇺🇸 美国 34
+      - 🇺🇸 美国 35
+      - 🇺🇸 美国 36
+      - 🇺🇸 美国 37
+      - 🇺🇸 美国 38
+      - 🇺🇸 美国 39
+      - 🇺🇸 美国 40
+      - 🇺🇸 美国 41
+      - 🇺🇸 美国 42
+      - 🇺🇸 美国 43
+      - 🇺🇸 美国 44
+      - 🇺🇸 美国 45
+      - 🇺🇸 美国 46
+      - 🇺🇸 美国 47
+      - 🇺🇸 美国 48
+      - 🇺🇸 美国 49
+      - 🇺🇸 美国 50
+      - 🇺🇸 美国 51
+      - 🇺🇸 美国 52
+      - 🇺🇸 美国 53
+      - 🇺🇸 美国 54
       - 🇱🇺 卢森堡
+      - 🇱🇹 立陶宛
+      - 🇱🇹 立陶宛 2
+      - 🇱🇹 立陶宛 3
+      - 🇱🇹 立陶宛 4
       - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
       - 🇳🇱 荷兰
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
       - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇳🇱 荷兰 10
       - 🇨🇷 哥斯达黎加
       - 🇨🇷 哥斯达黎加 2
       - 🇨🇷 哥斯达黎加 3
       - 🇨🇷 哥斯达黎加 4
+      - 🇨🇷 哥斯达黎加 5
+      - 🇨🇷 哥斯达黎加 6
       - 🇫🇷 法国
       - 🇫🇷 法国 2
+      - 🇫🇷 法国 3
+      - 🇫🇷 法国 4
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
-      - 🇩🇪 德国 3
-      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
+      - 🇷🇺 俄罗斯 5
+      - 🇷🇺 俄罗斯 6
+      - 🇩🇰 丹麦
+      - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
       - 🇦🇺 澳大利亚 2
 rules:
