@@ -8,54 +8,57 @@ proxies:
   - {name: 🇬🇧 英国, server: 51.38.65.155, port: 443, type: trojan, password: f142bc50-b755-11ef-ad1a-1239d0255272, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 2, server: uk2-full.privateip.net, port: 443, type: trojan, password: 30761083-5dcd-49d6-85b5-33756ef1f7ed, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 3, server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6, tfo: false}
-  - {name: 🇬🇧 英国 4, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇬🇧 英国 4, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: 🇮🇷 伊朗, server: 2.182.174.21, port: 9090, type: vmess, uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 香港, server: 42.236.73.72, port: 443, type: trojan, password: fuck, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 香港 2, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 香港 3, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 香港 4, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 香港 5, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 6, server: 1.12.237.86, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5, tfo: false}
-  - {name: 🇭🇰 香港 7, server: 219.135.227.209, port: 15010, type: ss, cipher: aes-256-gcm, password: QM1BB5SMWC47IVWA, tfo: false}
-  - {name: 🇭🇰 香港 8, server: 219.135.227.209, port: 17001, type: ss, cipher: aes-256-gcm, password: BGX8OXD6P10X53LY, tfo: false}
-  - {name: 🇭🇰 香港 9, server: 223.113.54.145, port: 36442, type: trojan, password: QwwHvrnN, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 10, server: 219.135.227.209, port: 15007, type: ss, cipher: aes-256-gcm, password: KGPWD7ZZY2F0ZYPY, tfo: false}
-  - {name: 🇭🇰 香港 11, server: 219.135.227.209, port: 18009, type: ss, cipher: aes-256-gcm, password: YD5ETBMPY0O6L2A9, tfo: false}
-  - {name: 🇭🇰 香港 12, server: jp1.tiljkc.top, port: 38953, type: vmess, uuid: 869760fe-7f4f-320c-b223-697f8e870088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 13, server: 219.135.227.209, port: 16015, type: ss, cipher: aes-256-gcm, password: CVPPFA5LEN1NRWWO, tfo: false}
-  - {name: 🇭🇰 香港 14, server: sg1.tiljkc.top, port: 34843, type: vmess, uuid: 869760fe-7f4f-320c-b223-697f8e870088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 15, server: 123.125.94.170, port: 1466, type: trojan, password: d4f89111885.wns.windows.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 16, server: ydygd.tcekx.cn, port: 46489, type: trojan, password: 0fbfd2e8-04e5-47f1-811b-b436de70906a, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 17, server: qd.tcekx.cn, port: 41659, type: trojan, password: 4ebd7758-0b0a-4666-b812-07155e2bf3b5, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港 18, server: ydygd.tcekx.cn, port: 46489, type: trojan, password: 2c43dfd4-3462-452c-841b-36529468b3b4, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇪 瑞典, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇸🇪 瑞典 2, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇭🇰 香港 6, server: 219.135.227.209, port: 15010, type: ss, cipher: aes-256-gcm, password: QM1BB5SMWC47IVWA, tfo: false}
+  - {name: 🇭🇰 香港 7, server: 219.135.227.209, port: 17001, type: ss, cipher: aes-256-gcm, password: BGX8OXD6P10X53LY, tfo: false}
+  - {name: 🇭🇰 香港 8, server: 219.135.227.209, port: 18009, type: ss, cipher: aes-256-gcm, password: YD5ETBMPY0O6L2A9, tfo: false}
+  - {name: 🇭🇰 香港 9, server: 219.135.227.209, port: 16015, type: ss, cipher: aes-256-gcm, password: CVPPFA5LEN1NRWWO, tfo: false}
+  - {name: 🇭🇰 香港 10, server: ydygd.tcekx.cn, port: 46489, type: trojan, password: 0fbfd2e8-04e5-47f1-811b-b436de70906a, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 11, server: qd.tcekx.cn, port: 41659, type: trojan, password: 4ebd7758-0b0a-4666-b812-07155e2bf3b5, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 12, server: ydygd.tcekx.cn, port: 46489, type: trojan, password: 2c43dfd4-3462-452c-841b-36529468b3b4, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 13, server: 219.135.227.209, port: 17003, type: ss, cipher: aes-256-gcm, password: TTK8DSO6MZREEJQ1, tfo: false}
+  - {name: 🇭🇰 香港 14, server: qd.tcekx.cn, port: 41659, type: trojan, password: 0fbfd2e8-04e5-47f1-811b-b436de70906a, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 15, server: ydygd.tcekx.cn, port: 46489, type: trojan, password: 4ebd7758-0b0a-4666-b812-07155e2bf3b5, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 16, server: qd.tcekx.cn, port: 41659, type: trojan, password: 2c43dfd4-3462-452c-841b-36529468b3b4, sni: www.hku.hk, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 17, server: 36.134.115.217, port: 6700, type: ss, cipher: rc4-md5, password: uYhVA160ZoSg3AI5, tfo: false}
+  - {name: 🇭🇰 香港 18, server: 218.253.32.146, port: 60317, type: vmess, uuid: 996ee9ca-f721-33f6-8a26-ed27df4975f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 19, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇭🇰 香港 20, server: 219.135.227.209, port: 15007, type: ss, cipher: aes-256-gcm, password: KGPWD7ZZY2F0ZYPY, tfo: false}
+  - {name: 🇨🇭 瑞士, server: 138.124.60.136, port: 44915, type: ss, cipher: chacha20-ietf-poly1305, password: fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU=, tfo: false}
   - {name: 🇯🇵 日本, server: 18.179.44.127, port: 443, type: trojan, password: 24273330-85c9-3a6e-a0fd-58a6076a3a85, skip-cert-verify: true, tfo: false}
   - {name: 🇯🇵 日本 2, server: 18.179.44.127, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true, tfo: false}
-  - {name: 🇲🇩 摩尔多瓦, server: 178.175.134.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
   - {name: 🇺🇸 美国, server: au-full.privateip.net, port: 443, type: trojan, password: 882f187b-feb1-4be7-8678-32460f1ecfe6, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 2, server: de2-full.privateip.net, port: 443, type: trojan, password: 665c944d-047d-4659-80d5-3eaac70241a9, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 3, server: usla.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: usla.mjt000.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 4, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 5, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 6, server: 34.215.192.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇺🇸 美国 7, server: 38.68.135.138, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
-  - {name: 🇺🇸 美国 8, server: sg-full.privateip.net, port: 443, type: trojan, password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 9, server: 38.114.114.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: 🇺🇸 美国 10, server: 51.120.1.158, port: 32091, type: ss, cipher: chacha20-ietf-poly1305, password: xjzsiMfTByKjA9URbdXWNp, tfo: false}
-  - {name: 🇱🇻 拉脱维亚, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇨🇦 加拿大, server: 23.154.136.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
-  - {name: 🇰🇷 韩国, server: 3.34.255.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 美国 2, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 3, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 675821fd-e6d1-4e8e-b56e-efc84bc819a0, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 4, server: sg-full.privateip.net, port: 443, type: trojan, password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 5, server: 51.120.1.158, port: 32091, type: ss, cipher: chacha20-ietf-poly1305, password: xjzsiMfTByKjA9URbdXWNp, tfo: false}
+  - {name: 🇺🇸 美国 6, server: 156.231.104.21, port: 18011, type: ss, cipher: aes-256-gcm, password: 9ZEB8Z1ZXEUHAGUH, tfo: false}
+  - {name: 🇺🇸 美国 7, server: 156.231.104.11, port: 18001, type: ss, cipher: aes-256-gcm, password: 0JP2PNY1VIZVNSRJ, tfo: false}
+  - {name: 🇺🇸 美国 8, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 美国 9, server: 3.147.48.100, port: 36325, type: ss, cipher: chacha20-ietf-poly1305, password: 4p8Xip5R50r2guWgrffLUg, tfo: false}
   - {name: 🇷🇺 俄罗斯, server: 217.30.10.18, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, tfo: false}
-  - {name: 🇷🇺 俄罗斯 2, server: 62.133.63.154, port: 20255, type: ss, cipher: chacha20-ietf-poly1305, password: ebrYpJsRfFtlKuO2HygBoD, tfo: false}
-  - {name: 🇩🇪 德国, server: 84.19.31.63, port: 50841, type: ss, cipher: chacha20-ietf-poly1305, password: 2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb, tfo: false}
-  - {name: 🇩🇪 德国 2, server: fr2-full.privateip.net, port: 443, type: trojan, password: 0280b529-2747-4b7a-ab11-bad6453150b9, skip-cert-verify: true, tfo: false}
-  - {name: 🇩🇪 德国 3, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
-  - {name: 🇩🇪 德国 4, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
-  - {name: 🇩🇪 德国 5, server: 46.183.184.62, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
-  - {name: 🇩🇪 德国 6, server: es-full.privateip.net, port: 443, type: trojan, password: 3240d72a-1373-4566-9c6c-68524e4b13fc, skip-cert-verify: true, tfo: false}
-  - {name: 🇩🇪 德国 7, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: 🇷🇺 俄罗斯 2, server: 217.30.10.18, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, tfo: false}
+  - {name: 🇷🇺 俄罗斯 3, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, tfo: false}
+  - {name: 🇷🇺 俄罗斯 4, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, tfo: false}
+  - {name: 🇩🇪 德国, server: fr2-full.privateip.net, port: 443, type: trojan, password: 0280b529-2747-4b7a-ab11-bad6453150b9, skip-cert-verify: true, tfo: false}
+  - {name: 🇩🇪 德国 2, server: es-full.privateip.net, port: 443, type: trojan, password: 3240d72a-1373-4566-9c6c-68524e4b13fc, skip-cert-verify: true, tfo: false}
+  - {name: 🇩🇪 德国 3, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: 🇩🇪 德国 4, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
+  - {name: 🇩🇪 德国 5, server: 78.47.102.195, port: 44484, type: vmess, uuid: 8a2ce574-2b74-4f10-a28e-b6d852e3f725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇩🇪 德国 6, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
+  - {name: 🇩🇪 德国 7, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
+  - {name: 🇩🇪 德国 8, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
+  - {name: 🇧🇪 比利时, server: 57.155.30.207, port: 80, type: vmess, uuid: b831381d-6324-4d53-ad4f-8cda48b30812, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇧🇪 比利时 2, server: 57.155.31.98, port: 80, type: vmess, uuid: b831381d-6324-4d53-ad4f-8cda48b30812, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇧🇬 保加利亚, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
   - {name: 🇦🇺 澳大利亚, server: 43.206.140.241, port: 443, type: trojan, password: 6b7ec37b-96e7-37a1-9c9f-80399b8e7256, skip-cert-verify: true, tfo: false}
+  - {name: 🇦🇷 阿根廷, server: 170.80.111.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -66,6 +69,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -84,11 +88,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -98,12 +102,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -111,8 +113,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -123,6 +129,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -141,11 +148,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -155,12 +162,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -168,8 +173,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -180,6 +189,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -198,11 +208,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -212,12 +222,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -225,8 +233,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: 📲 电报信息
     type: select
     proxies:
@@ -236,6 +248,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -254,11 +267,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -268,12 +281,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -281,8 +292,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -292,6 +307,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -310,11 +326,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -324,12 +340,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -337,8 +351,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -348,6 +366,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -366,11 +385,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -380,12 +399,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -393,8 +410,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -405,6 +426,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -423,11 +445,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -437,12 +459,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -450,8 +470,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -478,6 +502,7 @@ proxy-groups:
       - 🇬🇧 英国 2
       - 🇬🇧 英国 3
       - 🇬🇧 英国 4
+      - 🇮🇷 伊朗
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
@@ -496,11 +521,11 @@ proxy-groups:
       - 🇭🇰 香港 16
       - 🇭🇰 香港 17
       - 🇭🇰 香港 18
-      - 🇸🇪 瑞典
-      - 🇸🇪 瑞典 2
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇨🇭 瑞士
       - 🇯🇵 日本
       - 🇯🇵 日本 2
-      - 🇲🇩 摩尔多瓦
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
@@ -510,12 +535,10 @@ proxy-groups:
       - 🇺🇸 美国 7
       - 🇺🇸 美国 8
       - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇱🇻 拉脱维亚
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
+      - 🇷🇺 俄罗斯 3
+      - 🇷🇺 俄罗斯 4
       - 🇩🇪 德国
       - 🇩🇪 德国 2
       - 🇩🇪 德国 3
@@ -523,8 +546,12 @@ proxy-groups:
       - 🇩🇪 德国 5
       - 🇩🇪 德国 6
       - 🇩🇪 德国 7
+      - 🇩🇪 德国 8
+      - 🇧🇪 比利时
+      - 🇧🇪 比利时 2
       - 🇧🇬 保加利亚
       - 🇦🇺 澳大利亚
+      - 🇦🇷 阿根廷
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
